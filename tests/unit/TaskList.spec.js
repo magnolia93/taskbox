@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils';
 
 import TaskList from '../../src/components/TaskList.vue';
-import { WithPinnedTasks } from '../../src/components/TaskList.stories';
+import { WithPinnedTasks } from '../../src/components/PureTaskList.stories';
 
 test('render pinned tasks at the start of the list', () => {
   const wrapper = mount(TaskList, {
